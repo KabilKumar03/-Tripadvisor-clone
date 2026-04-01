@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tripadvisor:Over a billion review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" </head>
+
+<body>
+  <div class="navbar">
+    <div class="navbar__s1">
+      <h1 class="navbar__s1__title">Tripadvisor</h1>
+    </div>
+
+    <div class="navbar__s2">
+      <h4 class="navbar__s2__desc1">Discover</h4>
+      <h4 class="navbar__s2__desc2">Review</h4>
+      <h4 class="navbar__s2__desc3">More</h4>
+    </div>
+
+    <div class="navbar__s3">
+      <i class="fa-solid fa-globe" style="color: rgb(0, 0, 0);"></i>
+      <p>|</p>
+      <h4>INR</h4>
+      <button class="navbar__s3__button">Sign In</button>
+    </div>
+  </div>
+
+  <div class="categories">
+    <p>Where To ?</p>
+  </div>
+
+  <div class="screen1">
+    <h3 class="screen1__title1">Search All</h3>
+    <h3 class="screen1__title2">Hotels</h3>
+    <h3 class="screen1__title3">Things to Do</h3>
+    <h3 class="screen1__title4">Restaurants</h3>
+  </div>
+
+  <div class="search-container">
+    <div class="search-box">
+      <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
+      <input type="text" placeholder="Places to go, things to do, hotels..." />
+      <button>Search</button>
+    </div>
+  </div>
+
+  <div class="card">
+
+    <div class="card-left">
+      <img
+        src="data:image/jpeg;base64,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"
+        alt="walking Image">
+    </div>
+
+    <div class="card-right">
+      <h1>Find things to do for everything you're into</h1>
+      <p>Browse 400,000+ experiences and book with us.</p>
+      <button>Book now</button>
+    </div>
+
+  </div>
+
+ <div class="recommended">
+        <div class="recommended__title">
+            <h2>Find things to do by interset</h2>
+            <p>Whatever you're into, We've got it</p>
+        </div>
+        <div class="recommended__image">
+            <div class="recommended__image__list">
+                <h2>Outdoors</h2>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/c9/1d/df/caption.jpg?w=300&h=200&s=1" alt="">
+            </div>
+            <div class="recommended__image__list">
+                <h2>Food</h2>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/c9/1d/49/caption.jpg?w=300&h=200&s=1" alt="">
+            </div>
+            <div class="recommended__image__list">
+                <h2>Culture</h2>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/c9/1f/d4/caption.jpg?w=300&h=200&s=1" alt="">
+            </div>
+            <div class="recommended__image__list">
+                <h2>Water</h2>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/c9/1e/eb/caption.jpg?w=300&h=200&s=1" alt="">
+            </div>
+        </div>
+    </div>
+
+  <div class="topics">
+    <h1 class="topics__title">Explore adventures</h1>
+    <p>Don't Miss It</p>
+    <div class="topics__container">
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/97/c7/da/caption.jpg?w=300&h=200&s=1">
+        <h4>La Fortune Ultimate Waterfalls Canyoning</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+      </div>
+
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/ac/aa/12/caption.jpg?w=300&h=200&s=1">
+        <h4>Self Drive Bora Bora Rental</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+      </div>
+
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/97/d1/e5/caption.jpg?w=300&h=200&s=1">
+        <h4>Bora Bora Jet Sky Tour</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+      </div>
+
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/64/da/be/caption.jpg?w=300&h=200&s=1">
+        <h4>Luxury CartMann Bora BorA</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="topics">
+    <h1 class="topics__title">Explore experiences near Tiruppur</h1>
+    <p>Can’t-miss picks near you</p>
+    <div class="topics__container">
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/97/42/f3/caption.jpg?w=300&h=200&s=1">
+        <h4>Adiyogi 3D Light Show - A Spectacle of Light</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+      </div>
+
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/9c/ce/0e/caption.jpg?w=300&h=200&s=1">
+        <h4>Coimbatore to Ooty train Journey</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+      </div>
+
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/98/55/f6/caption.jpg?w=300&h=200&s=1">
+        <h4>Isha Yoga Centre</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+      </div>
+
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/b8/29/9c/monkey-falls.jpg?w=300&h=200&s=1">
+        <h4>Monkey Falls</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card__1">
+    <div class="card-left__1">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/ce/6a/05/caption.jpg?w=600&h=-1&s=1"
+        alt="Woman Image">
+    </div>
+
+    <div class="card-right__1">
+      <h1>Show some love to small businesses</h1>
+      <p> Donate to Kiva.org today to provide loans to</p>
+      <p>local entrepreneurs and the Tripadvisor </p>
+      <p>Foundation will match it, up to $150,000 USD collectively. Terms apply.</p>
+      <button>Donate Now</button>
+    </div>
+
+  </div>
+
+  <div class="topics">
+    <h1 class="topics__title">You might like these</h1>
+    <h4 class="topics__subtitle">More things to do in Bora Bora</h4>
+    <div class="topics__container">
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/6e/2a/04/caption.jpg?w=300&h=200&s=1">
+        <h4>Full Day Lagoon Group Tour in Bora Bora with Lunch</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+      </div>
+
+      <div class="course-card">
+        <img
+          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/1b/d2/00/croisiere-avec-snorkeling.jpg?w=300&h=200&s=1">
+        <h4>Half day Snorkerling Shared Boat Tour in Bora Bora</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+      </div>
+
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/b3/b3/3a/caption.jpg?w=300&h=200&s=1">
+        <h4>Reef Discovery Half Day Group Signature Tour</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+      </div>
+
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/03/08/ac/caption.jpg?w=300&h=200&s=1">
+        <h4>Bora Bora Sunset Cruise and Dinner at St James restaurant</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="popular">
+    <h1 class="popular__title">Beyond the Beach</h1>
+    <h4 class="popular__subtitle">Tropical experiences to level up your trip</h4>
+    <div class="popular__container">
+      <div class="course-card">
+        <img
+          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/b0/24/50/morning-half-day-cruise.jpg?w=300&h=200&s=1">
+        <h4>Morning-half-day-cruise from Providencials with Snorkerling</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+        <h5>from RS.15400 per adult</h5>
+      </div>
+
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/97/77/1c/caption.jpg?w=300&h=200&s=1">
+        <h4>Full-Day Bora Bora Lagoon Cruise Including Snorkerling with Sharks</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+        <h5>from RS.17400 per adult</h5>
+      </div>
+
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/97/a2/1f/caption.jpg?w=300&h=200&s=1">
+        <h4>Actun Tunichil Muknal Cave Tour and Picnic</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+        <h5>from RS.14017 per adult</h5>
+      </div>
+
+      <div class="course-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/4d/4d/a5/caption.jpg?w=300&h=200&s=1">
+        <h4>Aruba Atlantis Submarine Tour with more adventures</h4>
+        <h5>4.7 ⭐⭐⭐⭐☆</h5>
+        <h5>from RS.10800 per adult</h5>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="greetings">
+
+    <div class="greetings-left">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/50/42/98/caption.jpg?w=600&h=-1&s=1"
+        alt="Bike Ride Image">
+    </div>
+
+    <div class="greetings-right">
+      <p>Sponsored by <a href="https://www.tripadvisor.in/">Wanderlab</a></p>
+      <h1>Watch The Wanderer</h1>
+      <p>Tripadvisor’s award-winning travel series, now streaming on Amazon Prime Video</p>
+      <button>Learn More</button>
+    </div>
+
+  </div>
+
+ <div class="recommended">
+        <div class="recommended__title">
+            <h2>Find things to do by interset</h2>
+            <p>Whatever you're into, We've got it</p>
+        </div>
+        <div class="recommended__image">
+            <div class="recommended__image__list">
+                <h2>Rome, Italy</h2>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c9/6c/08/caption.jpg?w=300&h=200&s=1" alt="">
+            </div>
+            <div class="recommended__image__list">
+                <h2>Paris, France</h2>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/15/6d/d6/paris.jpg?w=300&h=200&s=1" alt="">
+            </div>
+            <div class="recommended__image__list">
+                <h2>Las Vegas, NV</h2>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/34/2d/28/caption.jpg?w=300&h=200&s=1&cx=662&cy=604&chk=v1_8984ddf3493edfb8c896" alt="">
+            </div>
+            <div class="recommended__image__list">
+                <h2>London, UK</h2>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/97/17/9e/riverside-view-of-south.jpg?w=300&h=200&s=1" alt="">
+            </div>
+        </div>
+    </div>
+
+  <footer>
+    <div class="footer">
+      <div class="footer__list1">
+        <div class="footer__list1__1">
+          <p>About Tripadvisor</p>
+          <div>
+            <p>About Us</p>
+            <p>Press</p>
+            <p>Resources and Policies</p>
+            <p>Careers</p>
+            <p>Trust & Safety</p>
+            <p>Contact us</p>
+            <p>Tripadvisor Technology Blog</p>
+          </div>
+        </div>
+        <div class="footer__list1__1">
+          <p>Explore</p>
+          <div>
+            <p>write a review</p>
+            <p>Add a Place</p>
+            <p>Join</p>
+            <p>Traveller's Choice</p>
+            <p>Help Centre</p>
+            <p>Travel Stories</p>
+          </div>
+        </div>
+        <div class="footer__list1__2">
+          <div class="foot__list1__2a">
+            <p>Do Business With Us</p>
+            <div>
+              <p>Owners & DMO/CVB</p>
+              <p>Business Advantage</p>
+              <p>Sponsored Placements</p>
+              <p>Access our Content API</p>
+            </div>
+          </div>
+          <div class="footer__list1__2a">
+            <p>Get the App</p>
+            <div>
+              <p>IPhone App</p>
+              <p>Android App</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__list2">
+        <p>Tripadvisor Sites</p>
+        <div class="footer__list2__2a">
+          <p>Book tours and attraction tickets on</p>
+          <p class="foot__list2__2a--link">Viator</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="links">
+      <div class="links__social-links">
+        <div class="links__social-links__image">
+          <img src="footer.svg" alt="">
+        </div>
+        <div>
+          <div class="links__social-links__copyright">
+            <p>&copy 2025 Tripadvisor LLC All rights reserved.</p>
+          </div>
+          <div class="links__social-links__list">
+            <h4>Terms of Use</h4>
+            <h4>Privacy and Cookies Statement</h4>
+            <h4>Cookie consent</h4>
+            <h4>Site Map</h4>
+            <h4>How the site works</h4>
+            <h4>Contact us</h4>
+            <h4>Accessibility Statement</h4>
+          </div>
+        </div>
+      </div>   
+      </div>
+    </div>
+    
+  </footer>
+
+
+
+</body>
+
+</html>
