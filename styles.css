@@ -305,7 +305,6 @@ footer {
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: start;
     flex-wrap: wrap;
     padding-right: 62px;
 }
@@ -333,11 +332,6 @@ footer {
     width: 190px;
 }
 
-.footer__list1__1 div p:hover {
-    color: rgb(129, 112, 112);
-    text-decoration: underline;
-}
-
 .footer__list1__2 {
     padding: 10px;
 }
@@ -353,10 +347,7 @@ footer {
     width: 190px;
 }
 
-.footer__list1__2a div p:hover {
-    color: rgb(129, 112, 112);
-    text-decoration: underline;
-}
+
 
 .footer__list2 {
     display: flex;
@@ -374,16 +365,6 @@ footer {
     gap: 3px;
 }
 
-.footer__list2__2a--link {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.footer__list2__2a--link:hover {
-    color: rgb(129, 112, 112);
-    text-decoration: underline;
-}
-
 
 
 .links {
@@ -397,53 +378,18 @@ footer {
 
 }
 
-.links__social-links__image img {
-    width: 40px;
-}
-
-.links__social-links__copyright p {
-    font-size: 12px;
-}
-
 .links__social-links__list {
     display: flex;
-    justify-content: start;
-    flex-wrap: wrap;
     align-items: center;
-    column-gap: 14px;
+    gap: 14px;
     font-size: 14px;
-    margin: 5px 0;
+    margin: 5px;
     text-decoration: underline;
     cursor: pointer;
 }
 
 .links__social-links__list h4:hover {
-    color: rgb(129, 112, 112);
-    text-decoration: underline;
-}
-
-
-.media {
-    display: flex;
-    gap: 10px;
-
-}
-
-.media__money__list {
-    width: 180px;
-    padding: 10px;
-    border-radius: 10px;
-    border: solid grey 2px;
-    cursor: pointer;
-}
-
-.media__money__list:hover {
-    background-color: whitesmoke;
-}
-
-.media__country__list {
-    width: 180px;
-    padding: 10px;
+    color:grey;
 }
 
 .container {
@@ -501,8 +447,6 @@ footer {
     }
 
 }
-
-
 
 @media (min-width: 601px) and (max-width: 900px) {
 
