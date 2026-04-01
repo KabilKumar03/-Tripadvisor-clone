@@ -13,4 +13,4 @@ This project is a responsive TripAdvisor-inspired web interface built using HTML
 - CSS3
 
  Live Demo
-(Add your GitHub Pages link here)
+(https://KabilKumar03.github.io/-Tripadvisor-clone/)
